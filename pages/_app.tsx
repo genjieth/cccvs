@@ -16,8 +16,8 @@ import {
 import { getDefaultConfig, RainbowKitProvider } from '@rainbow-me/rainbowkit';
 
 const config = getDefaultConfig({
-  appName: 'RainbowKit App',
-  projectId: 'YOUR_PROJECT_ID',
+  appName: 'Confidential Cross-Chain Voting System',
+  projectId: process.env.NEXT_PUBLIC_PROJECT_ID || "",
   chains: [
     mainnet,
     polygon,
